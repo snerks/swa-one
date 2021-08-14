@@ -1,0 +1,5 @@
+root = true
+
+[*.cs]
+# Default severity for all analyzer diagnostics
+dotnet_diagnostic.RCS1090.severity = silent
