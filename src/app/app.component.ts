@@ -20,7 +20,8 @@ export class AppComponent implements OnInit {
     );
 
     const response$: Observable<string> = this.http.get(
-      '/api/Greetings?name=Bob',
+      // '/api/Greetings?name=Bob.QueryString',
+      '/api/Greetings',
       {
         headers,
         responseType: 'text',
